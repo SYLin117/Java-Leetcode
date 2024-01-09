@@ -11,7 +11,7 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <java>11</java>
+    <java>21</java>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -31,8 +31,8 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>9</source>
-          <target>9</target>
+          <source>21</source>
+          <target>21</target>
         </configuration>
       </plugin>
     </plugins>
